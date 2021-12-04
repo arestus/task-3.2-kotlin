@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         acceptButton.setOnClickListener {
             val userInput = Integer.valueOf(enterTheNumberInput.editText?.text?.toString())
 
+
+
             when {
                 userInput > guessNumber -> {
                     textResult.text = "No :) My number is smaller"
@@ -39,4 +41,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+
 
