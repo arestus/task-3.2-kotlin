@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">task-3-kotlin-collections</string>
+    <string name="whatIsYourGuess">What is your guess?</string>
+    <string name="acceptButton">Am i right?</string>
+</resources>
